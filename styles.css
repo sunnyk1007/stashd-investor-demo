@@ -394,3 +394,22 @@ h3 { margin: 0; }
   .hero-line { font-size: 34px; }
   .tab-nav { border-radius: 28px; }
 }
+
+
+/* Fixed direct-render demo screens */
+.teen-home {
+  position: relative;
+  min-height: 100%;
+  background: var(--cream);
+  overflow: hidden;
+}
+.demo-mini-note {
+  margin-top: 12px;
+  border-radius: 24px;
+  background: #DBEAFE;
+  padding: 14px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(15,23,42,.68);
+}
+.demo-mini-note b { color: var(--ink); }
