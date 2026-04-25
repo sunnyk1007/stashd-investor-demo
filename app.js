@@ -7,7 +7,6 @@ tabs.forEach((tab) => {
     const target = tab.dataset.tab;
     tabs.forEach((t) => t.classList.toggle("active", t === tab));
     panels.forEach((p) => p.classList.toggle("active", p.id === target));
-    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 });
 
